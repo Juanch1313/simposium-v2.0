@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\RegistroController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +18,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('registros/create', [RegistroController::class, 'create'])->name('registros.create');
+Route::get('registros/show', [RegistroController::class, 'show'])->name('registros.show');
+Route::post('registros/store', [RegistroController::class, 'store'])->name('registros.store');
+
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [RegistroController::class, 'show'])->name('registros.show');
