@@ -9,6 +9,7 @@
         <!-- Fonts -->
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.2/dist/flowbite.min.css" />
+        <link rel="icon" href="./imagenes/camejal.png">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,6 +18,7 @@
         <style>
           html{
             font-family: 'Josefin Sans', sans-serif;
+            scroll-behavior: smooth;
           }
         </style>
 
@@ -90,16 +92,16 @@
       </div>
 
 
-       <div id="mapa" class="w-full shadow-[0px_2px_10px_4px_rgba(0,0,0,0.56)] pb-10">
-          <h1 class="text-4xl mt-10 text-center font-sans"><span class="font-extrabold">Sede</span> <br/> <i>Hotel Baruk de Autor Guadalajara</i></h1>
-          <iframe class="w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3139.1207460003834!2d-103.40012721590233!3d20.666945537969713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae7954a25cf5%3A0x2c4dc283c8e1115d!2sBaruk%20Hotel%20de%20Autor%20Guadalajara!5e0!3m2!1ses-419!2smx!4v1661392112112!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       <div id="mapa" class="w-[90%] m-auto bg-gradient-to-l to-[#cdcdcd] via-white from-[#cdcdcd] shadow-[0px_2px_10px_4px_rgba(0,0,0,0.56)] pb-10">
+          <h1 class="text-4xl mt-10 text-center font-josefin text-titulos"><span class="font-extrabold">Sede</span> <br/> <i class="text-subtitulos">Hotel Baruk de Autor Guadalajara</i></h1>
+          <iframe class="w-[90%] md:w-3/4 m-auto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3139.1207460003834!2d-103.40012721590233!3d20.666945537969713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae7954a25cf5%3A0x2c4dc283c8e1115d!2sBaruk%20Hotel%20de%20Autor%20Guadalajara!5e0!3m2!1ses-419!2smx!4v1661392112112!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
        </div>
 
        <div id="Actividades" class="mt-10">
         <h1 class="text-center text-4xl text-titulos font-josefin font-bold">Programa de actividades</h1>
 
-        <div id="Miercoles-16" class="mt-5 w-full grid grid-cols-1 md:grid-cols-2">
-          <div class="col-start-1 shadow-[0px_2px_10px_4px_rgba(0,0,0,0.56)]">
+        <div id="Miercoles-16" class="mt-5 w-full grid grid-cols-1">
+          <div class="w-[90%] md:w-[70%] m-auto bg-gradient-to-l to-[#cdcdcd] via-white from-[#cdcdcd] shadow-[0px_2px_10px_4px_rgba(0,0,0,0.56)]">
           <h2 class="text-2xl text-center text-subtitulos font-josefin font-bold">Miércoles 16 de noviembre 2022</h2>
           <p class="w-[95%] m-auto">
             <span class="font-semibold font-josefin text-lg text-black">08:00 - 10:00 hrs.</span>
@@ -223,8 +225,8 @@
           </p>
           </div>
         </div>
-        <div id="Jueves-17" class="grid grid-cols-1 md:grid-cols-2 mt-5 md:mt-0">
-          <div class="col-start-2 shadow-[0px_2px_10px_4px_rgba(0,0,0,0.56)]">
+        <div id="Jueves-17" class="grid grid-cols-1 mt-10">
+          <div class="w-[90%] md:w-[70%] bg-gradient-to-l to-[#cdcdcd] via-white from-[#cdcdcd] m-auto shadow-[0px_2px_10px_4px_rgba(0,0,0,0.56)]">
           <h2 class="text-2xl text-center text-subtitulos font-josefin font-bold">Jueves 17 de noviembre 2022</h2>
             <p class="w-[95%] m-auto">
               <br/>
