@@ -298,6 +298,7 @@
             </p>
           </div>
         </div>
+      </div>
 
        <div id="Orden de pago" class="w-full mt-5 grid justify-items-center shadow-[0px_2px_10px_4px_rgba(0,0,0,0.56)] pb-3 px-10">
         <h3 class="text-2xl md:text-5xl my-5 font-josefin font-bold text-center text-titulos">Registro</h3>
@@ -332,9 +333,6 @@
               <a href="https://es-la.facebook.com/ArbitrajeMedicoJalisco" target="_blank"><i class="fa-brands fa-facebook text-4xl md:text-5xl text-blue-900 hover:cursor-pointer"></i></a>
               <a href="https://www.instagram.com/came_jal/" target="_blank"><i class="fa-brands fa-instagram text-4xl md:text-5xl text-pink-900 hover:cursor-pointer"></i></i></a>
             </div>
-            </div>
-            <div>
-
             </div>
         </footer>
 
