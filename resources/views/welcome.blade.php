@@ -14,6 +14,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500;600;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/981c8ced16.js" crossorigin="anonymous"></script>
 
         <style>
           html{
@@ -93,7 +94,7 @@
 
 
        <div id="mapa" class="w-[90%] m-auto bg-gradient-to-l to-[#cdcdcd] via-white from-[#cdcdcd] shadow-[0px_2px_10px_4px_rgba(0,0,0,0.56)] pb-10">
-          <h1 class="text-4xl mt-10 text-center font-josefin text-titulos"><span class="font-extrabold">Sede</span> <br/> <i class="text-subtitulos">Hotel Baruk de Autor Guadalajara</i></h1>
+          <h1 class="mt-10 text-center font-josefin text-titulos"><span class="font-extrabold text-2xl md:text-4xl">Sede</span> <br/> <i class="text-subtitulos text-xl md:text-3xl">Hotel Baruk de Autor Guadalajara</i></h1>
           <iframe class="w-[90%] md:w-3/4 m-auto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3139.1207460003834!2d-103.40012721590233!3d20.666945537969713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae7954a25cf5%3A0x2c4dc283c8e1115d!2sBaruk%20Hotel%20de%20Autor%20Guadalajara!5e0!3m2!1ses-419!2smx!4v1661392112112!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
        </div>
 
@@ -298,7 +299,7 @@
           </div>
         </div>
 
-       <div id="Orden de pago" class="w-full mt-0 md:mt-5 grid justify-items-center shadow-[0px_2px_10px_4px_rgba(0,0,0,0.56)] pb-3 px-10">
+       <div id="Orden de pago" class="w-full mt-5 grid justify-items-center shadow-[0px_2px_10px_4px_rgba(0,0,0,0.56)] pb-3 px-10">
         <h3 class="text-2xl md:text-5xl my-5 font-josefin font-bold text-center text-titulos">Registro</h3>
         <h2 class="text-lg md:text-2xl font-serif font-extrabold text-center opacity-90">A continuación haz click en el siguiente boton y realiza el pago correspondiente dicho en el archivo que se descargara</h2>
         <a class="my-5 w-full md:w-1/4  bg-subtitulos hover:bg-blue-700 text-white font-bold py-2 px-4 rounded grid justify-center" href="./imagenes/OrdenDePago.png" download>Descargar orden de pago</a>
@@ -310,6 +311,33 @@
         <a class="mb-5 w-full bg-subtitulos hover:bg-blue-700 text-white font-bold py-2 px-4 rounded grid justify-center" href="{{route('registros.create')}}">Ir a formulario</a>
         </div>
        </div>
+
+       <footer class="grid space-y-5 grid-cols-1 md:grid-cols-3 justify-items-center">
+            <div id="imagen" class="grid justify-center content-center">
+              <img src="./imagenes/logojalisco.png" class="w-[150px] h-[80px] basis-1/3" alt="Jalisco">
+            </div>
+            <div id="informacion" class="text-center">
+              <p class="basis-1/3 text-xs content-center">
+                <p class="text-titulos font-josefin text-base">Comisión de Arbitraje Médico del Estado de Jalisco - CAMEJAL</p>
+                <p class="text-dark font-josefin">
+                  Simon Bolivar #420, Atendemos cualquier tipo de inconformidad en la
+                  prestación de servicios de salud en las instituciones privadas o asistencia
+                  social.
+                </p>
+              </p>
+            </div>
+            <div id="contacto" class="grid content-center">
+            <h2 class="text-lg font-josefin text-titulos">¡Contactanos y siguenos en nuestras redes!</h2>
+            <div class="grid grid-cols-2 justify-items-center">
+              <a href="https://es-la.facebook.com/ArbitrajeMedicoJalisco" target="_blank"><i class="fa-brands fa-facebook text-4xl md:text-5xl text-blue-900 hover:cursor-pointer"></i></a>
+              <a href="https://www.instagram.com/came_jal/" target="_blank"><i class="fa-brands fa-instagram text-4xl md:text-5xl text-pink-900 hover:cursor-pointer"></i></i></a>
+            </div>
+            </div>
+            <div>
+
+            </div>
+        </footer>
+
        <script src="https://unpkg.com/flowbite@1.5.2/dist/flowbite.js"></script>
     </body>
 </html>
